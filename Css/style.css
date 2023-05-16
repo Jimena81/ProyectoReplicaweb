@@ -1,6 +1,37 @@
+.Logo{
+width: 100px;
+height: 100px;
+}
+
 .NavBar{
     display: flex;
+}
+.MainNav{
+    text-align: right;
+    display: flex;
     justify-content: flex-end;
-    
+    align-items:center;
+    width: 100%;
+    list-style-type:none;
+    gap: 5%;
 
+}
+
+.banner{
+    text-align: center;
+}
+
+#iphone{
+    width: 30%;
+    height: 30%;
+    
+    animation-name: iphone12;
+
+}
+@keyframes iphone12 {
+
+}
+
+.ButtonsContainer{
+    text-align: center;
 }
