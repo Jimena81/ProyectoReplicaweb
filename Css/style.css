@@ -2,9 +2,14 @@
 width: 100px;
 height: 100px;
 }
+body{font-family: 'Open Sans', sans-serif;}
 
 .NavBar{
     display: flex;
+    gap:2%;
+    align-items: center;
+  /*  background-color: pink;*/
+
 }
 .MainNav{
     text-align: right;
@@ -14,17 +19,41 @@ height: 100px;
     width: 100%;
     list-style-type:none;
     gap: 5%;
+    font-size: 1em;
+    color: rgb(78, 77, 77);
+
+}
+#buttonDown{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    color: #FF4B63;
+    border: 2px solid #FF4B63
+   
 
 }
 
 .banner{
     text-align: center;
+      
 }
 
+.iphoneimage{
+    width: 100%;
+    padding:50px;
+    background-color: blueviolet;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 #iphone{
+    display: flex;
     width: 30%;
     height: 30%;
-    
+    justify-content: center;
+    justify-items: center;
+
     animation-name: iphone12;
 
 }
@@ -32,6 +61,42 @@ height: 100px;
 
 }
 
+
+.imagen1{
+    background-color:#E8E3F9;
+   
+}
+
+
+.imagen2{
+    background-color:#D5F2ED;
+}
+.imagen5{
+    background-color: #F7E1E7;
+}
+.imagen3{
+    background-color: #DDF0F9
+}
+.imagen4{
+    background-color: #DDF0F9;
+}
+
+
+
+
 .ButtonsContainer{
+   background-color: pink;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap:5%;
+    justify-content: center;
+  /* justify-items: center; */
+
+}
+
+.ButtonsContainer  div{
+   border-radius: 50%; 
+   
 }
