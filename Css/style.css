@@ -215,16 +215,48 @@ p{
 }
 
 .PrimeraParteS2{
+    display:flex;
+    padding: 10%;
+    
+}
+
+#imagenArticulo{
+    width: 630px;
+    height: 630px;
+    display: flex;
+    justify-content: space-around;
+}
+.TitleFirstPart{
+    font-size: 25em;
+    font-weight: bold;
+}
+#paragraph1{
+    display: flex;
+    text-align: left;
+    padding: 2%;
+    justify-content: space-around;
+    font-size: 10em;
+}
+.ContainerS2{
+    background-color:#e8eff6;
+    padding: 20%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
 
 }
 
+#BotonesB1{
+    display: flex;
+    flex-direction:row;
+   
+}
 
 
-
-
-
-
-
+.Bloque1{
+    display: flex;
+    flex-direction: column;
+}
 
 .button3{
     border-radius: 25px 25px 25px 25px;
@@ -235,26 +267,78 @@ p{
     margin: 4px 2px;
     cursor: pointer;
     vertical-align: middle;
+    font-size: 1em;
 }
 .button4{
-    border: 2px solid #FF4B63;
-    background-color: #FF4B63;
+    border: 2px solid #8F5CE3;
+    background-color:#8F5CE3;
     color:rgb(255, 255, 255);
     padding-bottom: 0.1%;
     margin: 4px 2px;
     cursor: pointer;
     vertical-align: middle;
+    font-size: 1em;
+    font-weight: bold;
+}
+#imgReloj{
+    width: 17px;
 }
 .button5{
-
+    border: 2px solid #F6F9FD;
+    background-color: #F6F9FD;
+    color: #6E6E6E;
+    padding-bottom: 0.1%;
+    margin: 4px 2px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 1.3em;
+    font-weight: bold;
 }
-
-
-
+#imgLista{
+    width: 17px;
+}
+.button6{
+    border: 2px solid #F6F9FD;
+    background-color: #F6F9FD;
+    color: #6E6E6E;
+    padding-bottom: 0.1%;
+    margin: 4px 2px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#imgCalendar{
+    width: 17px;
+}
+#ImgDescription2{
+    width: 630px;
+    height: 630px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8F5CE3;
+}
 
 
 
 .LogosUsuarios{
     display: flex;
     justify-content: center;
+    padding: 10%;
+    background-color:#e8eff6;
+    flex-direction: row;
+    align-items: stretch;
+    gap:5%;
+
+}
+
+.DownloadIphone{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+#textIphone{
+    text-align: center;
+    font-size: 1.2em;
 }
