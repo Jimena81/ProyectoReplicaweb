@@ -1,14 +1,30 @@
+
+
+header{
+    position: fixed;
+    width:100%;
+    max-width: 1200px;
+    margin: 8px auto 8px auto;
+
+}
 .Logo{
 width: 100px;
 height: 100px;
 }
-body{font-family: 'Open Sans', sans-serif;}
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    margin: 8px auto 8px auto;
+    position: relative;
+    background-color: #F6F9FD;
+}
 
 .NavBar{
     display: flex;
     gap:2%;
     align-items: center;
-  /*  background-color: pink;*/
+   
+background-color: pink;
 
 }
 .MainNav{
@@ -18,85 +34,227 @@ body{font-family: 'Open Sans', sans-serif;}
     align-items:center;
     width: 100%;
     list-style-type:none;
-    gap: 5%;
+    gap: 3%;
     font-size: 1em;
-    color: rgb(78, 77, 77);
-
+    color: #2D2D2D;
+    font-weight: bold;
 }
-#buttonDown{
+#DownArrow{
+    color: #2D2D2D;
+    font-weight: bold;
+}
+.buttonDown{
     background-color: rgb(255, 255, 255);
     width: 200px;
     height: 50px;
     border-radius: 25px 25px 25px 25px;
     color: #FF4B63;
-    border: 2px solid #FF4B63
-   
-
-}
+    border: 2px solid #FF4B63;
+    
+  }
+ .buttonDown:hover{
+    
+        box-shadow: #FF4B63 0px 22px 70px 4px;
+        transition: all 0.2s ease;
+        color: #FF4B63;
+ }
 
 .banner{
-    text-align: center;
+    padding: 10%;
+    background-color: aqua;
+    
       
+}
+.GreenDiamond{
+    width: 2%;
+    height: 1%;
+    text-align: start;
+    background-color: blueviolet;
+
+ }
+.YellowCircle{
+    width: 2%;
+    height: 2%;
+    align-content: end;
+    
+    
+}
+.Title{
+    font-size: 4em;
+    padding-top: 10%;
+    text-align: center;
+}
+p{
+    color: #6E6E6E;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.5em;
+    padding: 2%;
+}
+.header_buttons{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    border-radius: 25px 25px 25px 25px;
+    border: 2px solid #FF4B63;
+    background-color: #FF4B63;
+    color:rgb(255, 255, 255);
+    padding-bottom: 0.1%;
+    margin: 4px 2px;
+    cursor: pointer;
+    vertical-align: middle;
+   
+}
+.button2{
+    border-radius: 25px 25px 25px 25px;
+    border: 2px solid #FF4B63;
+    background-color: #FF4B63;
+    color:rgb(255, 255, 255);
+    padding-bottom: 0.1%;
+    vertical-align: middle;
 }
 
 .iphoneimage{
     width: 100%;
-    padding:50px;
+    padding: 20%;
     background-color: blueviolet;
     display:flex;
     align-items: center;
     justify-content: center;
+    margin: 8px auto 8px auto
 }
-#iphone{
+#iphone {
     display: flex;
-    width: 30%;
-    height: 30%;
+    width: 50%;
     justify-content: center;
     justify-items: center;
-
     animation-name: iphone12;
 
 }
 @keyframes iphone12 {
 
 }
+#WhiteCircle{
+    display: flex;
+    width: 10%;
+    justify-items: left;
 
+}
+#BlueCircle{
+    display: flex;
+    width: 5%;
+    justify-content: left;
+}
 
 .imagen1{
-    background-color:#E8E3F9;
-   
-}
-
-
+    background-color: #E8E3F9;
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    
+ }
+ #Text1{
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: bold;
+ }
 .imagen2{
     background-color:#D5F2ED;
-}
-.imagen5{
-    background-color: #F7E1E7;
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
 }
 .imagen3{
-    background-color: #DDF0F9
+    background-color: #F7EFD9;
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
 }
 .imagen4{
     background-color: #DDF0F9;
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+}
+.imagen5{
+    background-color: #F7E1E7;
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
 }
 
-
-
-
 .ButtonsContainer{
-   background-color: pink;
+    background-color: pink;
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: stretch;
     gap:5%;
     justify-content: center;
+    padding: 20%;
   /* justify-items: center; */
 
 }
 
 .ButtonsContainer  div{
    border-radius: 50%; 
+
    
+}
+
+.PrimeraParteS2{
+
+}
+
+
+
+
+
+
+
+
+
+.button3{
+    border-radius: 25px 25px 25px 25px;
+    border: 2px solid #FF4B63;
+    background-color: #FF4B63;
+    color:rgb(255, 255, 255);
+    padding-bottom: 0.1%;
+    margin: 4px 2px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.button4{
+    border: 2px solid #FF4B63;
+    background-color: #FF4B63;
+    color:rgb(255, 255, 255);
+    padding-bottom: 0.1%;
+    margin: 4px 2px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.button5{
+
+}
+
+
+
+
+
+
+.LogosUsuarios{
+    display: flex;
+    justify-content: center;
 }
