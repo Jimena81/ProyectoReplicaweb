@@ -14,194 +14,215 @@
 <body>
     <header>
         <nav class="NavBar">
-            <img src="./imagenes/images/logo.svg" class="Logo" alt="Icono Logo">
+            <img  src="./imagenes/images/logo.svg"class="Logo" alt="Icono Logo">
             <ul class="MainNav">
-                <li>DESCRIPTION</li>
-                <li>FEATURES</li>
-                <li>SCREENS</li>
+                <li><a href="#desc"> DESCRIPTION</a></li>
+                <li><a href="#feat"> FEATURES</a></li>
+                <li><a href="#screens"> SCREENS</a></li>
                 <li>EXTRA <img id="DownArrow" src="./imagenes/images/down-arrow.png" alt=""></li>
-               <!-- <li class="buttonDown"><a href="https://factoriaf5.org/"target="_blank"> <button>DOWNLOAD</button></a></li> -->
             </ul>
-
-            <button class="buttonDown"><a href="https://factoriaf5.org/" target="_blank"></a> DOWNLOAD </button>
+            <a href="https://factoriaf5.org/" target="_blank"><button class="buttonDown"> DOWNLOAD </button> </a>
         </nav>
            
     </header>
+    
     <main>
-        <section class="banner">
+        <section id="main" class="banner">
             <div> 
                 <img class="GreenDiamond" src="./imagenes/images/decorative-green-diamond.svg" alt="">
             </div>
+            <h2 class="Title"> Mobile App Landing Page</h2>
             <div>
                 <img class="YellowCircle" src="./imagenes/images/decorative-yellow-circle.svg" alt="">
             </div>
-            <h2 class="Title"> Mobile App Landing Page</h2>
-            <p>Start focusing on your goals and get more things done with Sync mobile application. It's the first app to harness the power of social connections to help you stay focused an get organized</p>
-            <div class="header_buttons"></div>
+            
+            <p id="FirstParagraph">Start focusing on your goals and get more things done with Sync mobile application. It's the first app to harness the power of social connections to help you stay focused an get organized</p>
+            <div class="header_buttons">
                 <button class="button1"><img src="./imagenes/images/apple.png" alt=""> DOWNLOAD</button>
                 <button class="button2"><img src="./imagenes/images/icons8-tienda-de-juegos-30.png" alt=""> DOWNLOAD</button>
             </div>
         </section>
-
+            
         <section class="iphoneimage">
             
-            <img id="WhiteCircle"src="./imagenes/images/decorative-white-circle.svg" alt="">
-            <img id="BlueCircle" src="./imagenes/images/decorative-blue-circle.svg" alt="">
             <img id="iphone"  src="./imagenes/images/header-iphone.png" alt="fotoIphone">
             
         </section>
 
-        <section class="ButtonsContainer">
-
-            <div class="imagen1"> <img src="./imagenes/images/icons8-llamada-de-conferencia-48.png" alt="Llamada">
-                <p id="Text1">Identify Goals</p></div>
-                
-            <div class="imagen2"> <img src="./imagenes/images/icons8-código-fuente-48.png" alt="Código">
-                <p id="Text2">Situation Analisys</p></div>
-
-            <div class="imagen3"> <img src="./imagenes/images/icons8-ajustes-48.png" alt="settings"> 
-                <p id="Text3">Social Interaction</p></div>
-
-            <div class="imagen4"> <img src="./imagenes/images/icons8-conversacion-40.png" alt="Conversación">
-                <p id="Text4">Tasks Settings</p></div>
-
-            <div class="imagen5"> <img src="./imagenes/images/icons8-newtonsoft-50.png" alt="Lanzadera"> 
-                <p id="Text5">Get Things Done</p></div>
-            
-            </div>
-
-
-        </section>
-            <div class="PrimeraParteS2">
-                <img id="imagenArticulo" src="./imagenes/images/description-1-app.png" alt="article">
-               <div> <h2 id="TitleFirstPart">Organize Your Time And Start Getting Results</h2>    
-                <p id="Paragraph1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta enim veritatis fuga molestiae, autem unde iste fugiat magni tempore perspiciatis repellendus quis quos vel nobis totam libero, ipsam laboriosam.</p>
-                    <ul>
-                        <li>Analize and evaluate your current status and productivity</li>
-                        <li>Begin monitoring your day to day routine with Sync app</li>
-                        <li>See the improved results in no more than a couple of weeks</li>
-                    </ul>
-                <button class="button3">LIGTHBOX</button>
+        <section>
+            <div class="ContainerLogos">
+                <div class="FirstLogos">
+                    <img class="rebote" id="imagen1" src="./imagenes/images/icons8-llamada-de-conferencia-48.png" alt="">
+                <div class="TextLogo">Identify Goals</div>
+                </div>
+                <div class="FirstLogos">
+                    <img class="rebote" id="imagen2" src="./imagenes/images/icons8-código-fuente-48.png" alt="">
+                    <div class="TextLogo">Situation Analysis</div>
+                </div>
+                <div class="FirstLogos">
+                    <img class="rebote" id="imagen3" src="./imagenes/images/icons8-ajustes-48.png" alt="">
+                    <div class="TextLogo">Task Settings</div>
+                </div>
+                <div class="FirstLogos">
+                    <img class="rebote" id="imagen4" src="./imagenes/images/icons8-conversacion-48.png" alt="">
+                    <div class="TextLogo">Social Interaction</div>
+                </div>
+                <div class="FirstLogos">
+                    <img class="rebote" id="imagen5" src="./imagenes/images/icons8-newtonsoft-50.png" alt="">
+                    <div class="TextLogo">Get Things Done</div>
                 </div>
             </div>
 
-            <!-- --------------  div SegungaParteS2 ------------------------------------- -->
+        </section >
+        <section id="desc">
+            <div class="Container1S2">
+               <div> <img id="imagenArticulo" src="./imagenes/images/description-1-app.png" alt="article"></div>
+               
+                <div>
+                    <h2 class="TitleFirstPart">Organize Your Time And Start Getting Results</h2>    
+                    <div><p id="Paragraph1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta enim veritatis fuga molestiae, autem unde iste fugiat magni tempore perspiciatis repellendus quis quos vel nobis totam libero, ipsam laboriosam.</p>
+                        <ul class="List-b2">
+                            <li>Analize and evaluate your current status and productivity</li>
+                            <li>Begin monitoring your day to day routine with Sync app</li>
+                            <li>See the improved results in no more than a couple of weeks</li>
+                        </ul>
+                        <button class="button3">LIGTHBOX</button>
+                    </div>
+                </div>
+            </div>
 
             <div class="ContainerS2">
                 <div class="Bloque1">
                     <div id="BotonesB1">
                         <button class="button4"><img id="imgReloj" src="./imagenes/images/icons8-reloj-48.png" alt="">Schedule</button>
-                        <button class="button5"><img id="imgLista" src="./imagenes/images/icons8-lista-48.png" alt="">Traking</button>
+                        <button class="button5"><img id="imgLista" src="./imagenes/images/icons8-lista-48.png" alt="">Traking</button> 
                         <button class="button6"><img id="imgCalendar" src="./imagenes/images/icons8-calendar-48.png" alt="">Organize</button>
                     </div>
                     
-                    <div id="ParagraphB1">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, facilis corrupti tempore commodi praesentium tenetur, temporibus aperiam qui obcaecati labore recusandae dolor! Deserunt harum asperiores nostrum aliquam cumque dolores vitae!</p>
-                        <ul>
+                    <div>
+                        <p class="ParagraphB1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, facilis corrupti tempore commodi praesentium tenetur, temporibus aperiam qui obcaecati labore recusandae dolor! Deserunt harum asperiores nostrum aliquam cumque dolores vitae!</p>
+                        <ul class="List-b1">
                             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dolores quam voluptate ab ut ipsam inventore, veritatis harum cupiditate consequatur, quaerat enim quidem accusantium fuga, laudantium cum placeat. Cupiditate, quis.</li>
                             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis, beatae tenetur possimus, praesentium illum eos blanditiis at similique fugit debitis ipsum est minus perferendis, quisquam vero esse recusandae exercitationem!</li>
                             <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla nostrum debitis quibusdam eius tempora aperiam? Aliquam, consequuntur! Sunt facilis, aliquam nesciunt molestiae ratione nostrum exercitationem. Soluta repudiandae placeat labore atque.</li>
                         </ul>
                     </div>
-                    <div id="BotonesParagraph">
+                    <div>
                         <button class="button7">TERMS</button>
                         <button class="button8">PRIVACY</button>
                     </div>
                 </div>
                 <img id="ImgDescription2" src="./imagenes/images/description-2-app.png" alt="">
             </div>
-            <!-- --------------  FIN div SegungaParteS2 ------------------------------------- -->
-
-        <section>
+        </section>
+        <section id="feat">
             <h2>User Testimonials</h2>
-            <div class="Testimonio1">
-                <img src="./imagenes/images/Estrellas.png" alt="5estrellas">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</p>
-            </div>
-            <div class="Testimonio2">
-                <img src="./imagenes/images/Estrellas.png" alt="5estrellas">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</p>
-            </div>
-            <div class="Testimonio3">
-                <img src="./imagenes/images/Estrellas.png" alt="5estrellas">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</p>
-            </div>
+            <div class="ContainerTestimonials">
+                <div class="Testimony">
+                    <img id="Stars" src="./imagenes/images/Estrellas.png" alt="5estrellas">
+                    <div class="Testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</div>
+                    <div class="Name">Rick Jones-Designer</div>
+                </div>
+                <div class="Testimony">
+                    <img id="Stars" src="./imagenes/images/Estrellas.png" alt="5estrellas">
+                    <div class="Testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</div>
+                    <div class="Name">Rick Jones-Designer</div>
+                </div>
+                <div class="Testimony">
+                    <img id="Stars" src="./imagenes/images/Estrellas.png" alt="5estrellas">
+                    <div class="Testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</div>
+                    <div class="Name">Rick Jones-Designer</div>
+                </div>
+             </div>
             <div class="ContainerCustomerlogos">
-                <img src="./imagenes/images/customer-logo-1.png" alt="">
-                <img src="./imagenes/images/customer-logo-2.png" alt="">
-                <img src="./imagenes/images/customer-logo-3.png" alt="">
-                <img src="./imagenes/images/customer-logo-4.png" alt="">
-                <img src="./imagenes/images/customer-logo-5.png" alt="">
+                <img class="CustomerLogo" src="./imagenes/images/customer-logo-1.png" alt="">
+                <img class="CustomerLogo" src="./imagenes/images/customer-logo-2.png" alt="">
+                <img class="CustomerLogo" src="./imagenes/images/customer-logo-3.png" alt="">
+                <img class="CustomerLogo" src="./imagenes/images/customer-logo-4.png" alt="">
+                <img class="CustomerLogo" src="./imagenes/images/customer-logo-5.png" alt="">
             </div>
-            <div class="Testimonio4">
-                <img src="./imagenes/images/Estrellas.png" alt="5estrellas">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</p>
-            </div>
-            <div class="Testimonio5">
-                <img src="./imagenes/images/Estrellas.png" alt="5estrellas">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</p>
-            </div>
-            <div class="Testimonio6">
-                <img src="./imagenes/images/Estrellas.png" alt="5estrellas">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</p>
-            </div>
-            <div class="LogosUsuarios">
-                <div class="imagen1"> <img src="./imagenes/images/icons8-llamada-de-conferencia-48.png" alt="Llamada">
-                    <p>231</p>
-                    <p>Happy Users</p></div>
-                    
-                <div class="imagen2"> <img src="./imagenes/images/icons8-código-fuente-48.png" alt="Código">
-                    <p>385</p>
-                    <p>Issues Solved</p></div>
-    
-                <div class="imagen5"> <img src="./imagenes/images/icons8-ajustes-48.png" alt="settings"> 
-                    <p>159</p>
-                    <p>Good Reviews</p></div>
-    
-                <div class="imagen3"> <img src="./imagenes/images/icons8-conversacion-40.png" alt="Conversación">
-                    <p>127</p>
-                    <p>Case Studies</p></div>
-    
-                <div class="imagen4"> <img src="./imagenes/images/icons8-newtonsoft-50.png" alt="Lanzadera"> 
-                    <p>211</p>
-                    <p>Orders Received</p></div>
+
+            <div class="ContainerTestimonials">
+                <div class="Testimony">
+                    <img id="Stars" src="./imagenes/images/Estrellas.png" alt="5estrellas">
+                    <div class="Testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</div>
+                    <div class="Name">Rick Jones-Designer</div>
+                </div>
+                <div class="Testimony">
+                    <img id="Stars" src="./imagenes/images/Estrellas.png" alt="5estrellas">
+                    <div class="Testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</div>
+                    <div class="Name">Rick Jones-Designer</div>
+                </div>
+                <div class="Testimony">
+                    <img id="Stars" src="./imagenes/images/Estrellas.png" alt="5estrellas">
+                    <div class="Testimonial">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi nostrum cum quo provident dolorum facilis nam obcaecati iste, quas unde fugit repellendus recusandae suscipit libero molestias soluta ipsum impedit?</div>
+                    <div class="Name">Rick Jones-Designer</div>
+                </div>
+             </div>
+            <div class="ContainerUserLogos">
+                <div class="SecondLogos">
+                    <img src="./imagenes/images/icons8-llamada-de-conferencia-48.png" alt="">
+                    <div class="Text">231</div>
+                    <div class="Text2">Happy Users</div>
+                </div>
+                <div class="SecondLogos">
+                    <img src="./imagenes/images/icons8-código-fuente-48.png" alt="">
+                    <div class="Text">385</div>
+                    <div class="Text2">Issues Solved</div>
+                </div>
+                <div class="SecondLogos">
+                    <img src="./imagenes/images/icons8-ajustes-48.png" alt="">
+                    <div class="Text">159</div>
+                    <div class="Text2">Good Reviews</div>
+                </div>
+                <div class="SecondLogos">
+                    <img src="./imagenes/images/icons8-conversacion-48.png" alt="">
+                    <div class="Text">127</div>
+                    <div class="Text2">Case Studies</div>
+                </div>
+                <div class="SecondLogos">
+                    <img src="./imagenes/images/icons8-newtonsoft-50.png" alt="">
+                    <div class="Text">211</div>
+                    <div class="Text2">Orders Received</div>
+                </div>
             </div>
 
         </section>
-        <section>
+        <section id="screens">
            <div>
-            <img class="DownloadIphone" src="./imagenes/images/download-iphone.png" alt="">
+            <img class="reboteOut" class="DownloadIphone" src="./imagenes/images/download-iphone.png" alt="">
            </div>
            <div>
             <p id="textIphone">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cum mollitia quod! Rem ipsam nemo velit, asperiores adipisci recusandae voluptates voluptas itaque, aspernatur incidunt sit delectus. Nostrum quam aliquam possimus.</p>
             </div>
-            <div><button class="button9"><img src="./imagenes/images/apple.png" alt=""> DOWNLOAD</button>
+            <div class="FinalButtons">
+                <button class="button9"><img src="./imagenes/images/apple.png" alt=""> DOWNLOAD</button>
                 <button class="button10"><img src="./imagenes/images/icons8-tienda-de-juegos-30.png" alt="">DOWNLOAD</button>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="ContactInfo">
-            <h2>Contact Info</h2>
-            <ul>
-                <li><img src="./imagenes/images/icons8-marcador-48.png" alt=""> 22 Innovation street, CA, US</li>
-                <li><img src="./imagenes/images/icons8-sobre-48.png" alt=""> office#syncmobile.com</li>
-                <li><img src="./imagenes/images/icons8-llamada-48.png" alt=""> +44 376 945 23</li>
+            <h2 id="titles">Contact Info</h2>
+            <ul class="ContactList">
+                <li><img id="maps" src="./imagenes/images/icons8-marcador-48.png" alt=""> 22 Innovation street, CA, US</li>
+                <li><img id="envelope" src="./imagenes/images/icons8-sobre-48.png" alt=""> office#syncmobile.com</li>
+                <li><img id="phone" src="./imagenes/images/icons8-llamada-48.png" alt=""> +44 376 945 23</li>
             </ul>
         </div>
         <div class="ValueLinks">
-            <h2>Value Links</h2>
-            <ul>
-                <li>Terms & Conditions</li>
+            <h2 id="titles">Value Links</h2>
+            <ul class="ContactList">
+                <li >Terms & Conditions</li>
                 <li>Privacy Policy</li>
                 <li>Article Datails</li>
             </ul>
 
         </div>
         <div class="OtherApps">
-            <h2>Other Apps</h2>
-            <ul>
+            <h2 id="titles">Other Apps</h2>
+            <ul class="ContactList">
                 <li>Scientific Calculator</li>
                 <li>Advanced Timer</li>
                 <li>Music Store</li>
@@ -214,11 +235,11 @@
             <img src="./imagenes/images/icons8-instagram-circle-30.png" alt="">
 
         </div>
-        <div>
-            <p>Copyright <img src="./imagenes/images/icons8-derechos-de-autor-12.png" alt=""> Inovatik - All rights reserved</p>
-        </div>
-        <div><button class="button11"><img src="./imagenes/images/up-arrow.png" alt=""></button></div>
-    </footer>
     
+    </footer>
+    <div>
+        <p id="Copy">Copyright <img src="./imagenes/images/icons8-derechos-de-autor-12.png" alt=""> Inovatik - All rights reserved</p>
+</div>
+<div><button class="button11"><img src="./imagenes/images/up-arrow.png" alt=""></button></div>
 </body>
 </html>
