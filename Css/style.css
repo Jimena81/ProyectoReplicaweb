@@ -1,7 +1,5 @@
 @import url("./reset.css");
 
-
-
 *{
     box-sizing: border-box;
     padding: 0%;
@@ -61,13 +59,13 @@ body{
 }
 .buttonDown{
     background-color: rgb(255, 255, 255);
-    width: 200px;
+    width: 150px;
     height: 50px;
     border-radius: 25px 25px 25px 25px;
     color: #FF4B63;
     border: 5px solid #FF4B63;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +99,7 @@ body{
     
 }
 .Title{
-    font-size: 100px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -109,8 +107,8 @@ body{
     display: flex;
     justify-content: center;
     color: #6E6E6E;
-    font-size: 35px;
-    margin: 50px 200px 0px 200px;
+    font-size: 25px;
+    margin: 50px 100px 0px 100px;
     text-align: center;
 }
 .header_buttons{
@@ -124,7 +122,7 @@ body{
     border: 2px solid #FF4B63;
     background-color: #FF4B63;
     color:rgb(255, 255, 255);
-    padding: 10px 70px;
+    padding: 10px 50px;
     cursor: pointer;
     text-align: center;
     display: flex;
@@ -143,7 +141,7 @@ body{
     border: 2px solid #FF4B63;
     background-color: #FF4B63;
     color:rgb(255, 255, 255);
-    padding: 10px 70px;
+    padding: 10px 50px;
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -240,7 +238,8 @@ body{
     background-color: #F7EFD9;
     height:100px;
     width:100px;
-    border-radius:50px;display: flex;
+    border-radius:50px;
+    display: flex;
     align-items: center;
     padding: 20%;
 }
@@ -248,7 +247,8 @@ body{
     background-color: #DDF0F9;
     height:100px;
     width:100px;
-    border-radius:50px;display: flex;
+    border-radius:50px;
+    display: flex;
     align-items: center;
     padding: 20%;
 
@@ -261,35 +261,55 @@ body{
     
 }
 #imagenArticulo{
-    width: 2000px;
-    height: 1200px;
+    width: 1000px;
+    height: 700px;
     display: flex;
     justify-content: space-around;
     
 }
 .TitleFirstPart{
-    margin-left: 10%;
+    margin-left: 20%;
     font-size: 50px;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 2%;
+    margin-right: 10%;
     
 }
 #Paragraph1{
     
     text-align: left;
-    margin-left: 10%;
-    font-size: 30px;
+    margin-left: 20%;
+    font-size: 20px;
+    margin-right: 10%;
     
 }
 .List-b2{
-    font-size: 25px;
+    font-size: 20px;
     list-style-type: square;
     color:#6E6E6E;
     text-align: left;
-    margin-left: 10%;
+    margin-left: 20%;
     padding: 5%;
     line-height: 5ex;
 }
+.button3{
+    border-radius: 25px 25px 25px 25px;
+    border: 2px solid #FF4B63;
+    background-color: #FF4B63;
+    color:rgb(255, 255, 255);
+    padding: 10px 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20%;
+}
+.button3:hover{
+    box-shadow: #FF4B63 0px 22px 70px 4px;
+    transition: all 0.2s ease;
+    color:white;
 
+}
 .ContainerS2{
     background-color:#e8eff6;
     padding: 10%;
@@ -301,7 +321,7 @@ body{
 #BotonesB1{
     display: flex;
     flex-direction:row;
-    padding: 5%;
+   margin-bottom: 2%;
    
 }
 .Bloque1{
@@ -309,36 +329,18 @@ body{
     flex-direction: column;
 }
 
-.button3{
-    border-radius: 25px 25px 25px 25px;
-    border: 2px solid #FF4B63;
-    background-color: #FF4B63;
-    color:rgb(255, 255, 255);
-    padding: 10px 70px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 10%;
-}
-.button3:hover{
-    box-shadow: #FF4B63 0px 22px 70px 4px;
-    transition: all 0.2s ease;
-    color:white;
-
-}
 .button4{
     border: 2px solid #8F5CE3;
     background-color:#8F5CE3;
     color:rgb(255, 255, 255);
-    padding: 20px 30px;
+    padding: 10px 30px;
     margin: 4px 2px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 #imgReloj{
-    width: 17px;
+    width: 15px;
 }
 .button4:hover{
     box-shadow: #d8acf5 0px 22px 70px 4px;
@@ -349,28 +351,28 @@ body{
     border: 2px solid #F6F9FD;
     background-color: #F6F9FD;
     color: #6E6E6E;
-    padding: 20px 30px;
+    padding: 1px 30px;
     margin: 4px 2px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
 }
 #imgLista{
-    width: 17px;
+    width: 15px;
 }
 .button6{
     border: 2px solid #F6F9FD;
     background-color: #F6F9FD;
     color: #6E6E6E;
-    padding: 20px 30px;
+    padding: 1px 30px;
     margin: 4px 2px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     
 }
 #imgCalendar{
-    width: 17px;
+    width: 15px;
 }
 #ImgDescription2{
     width: 630px;
@@ -402,7 +404,7 @@ body{
     border: 2px solid #FF4B63;
     background-color: #FF4B63;
     color:rgb(255, 255, 255);
-    padding: 20px 80px;
+    padding: 10px 40px;
     margin: 4px 2px;
     cursor: pointer;
     font-size: 15px;
@@ -415,10 +417,10 @@ body{
 }
 .button8{
     border-radius: 25px 25px 25px 25px;
-    border: 4px solid #FF4B63;
+    border: 4px solid #474849;
     background-color: #F6F9FD;
-    color: #FF4B63;
-    padding: 20px 80px;
+    color: #474849;
+    padding: 10px 40px;
     margin: 4px 2px;
     cursor: pointer;
     font-size: 15px;
@@ -467,6 +469,7 @@ padding-top: 10%;
     display: flex;
     
 }
+
 .ContainerUserLogos{
     display: flex;
     justify-content: center;
@@ -488,13 +491,16 @@ padding-top: 10%;
 }
 
 .DownloadIphone{
-    width: 600px;
+    width: 100px;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     padding: 10%;
     width: 100%;
 }
 .reboteOut{
+    animation: reboteOut 1s;
+}
+.reboteOut:hover{
     animation: reboteOut 1s infinite;
 }
 @keyframes reboteOut {
@@ -517,6 +523,22 @@ padding-top: 10%;
     
     }
     
+.blueCircle{
+    width: 100px;
+    float: right;
+}
+.YellowCircle1{
+    width: 2%;
+    height: 1%;
+    padding: 0%;
+    float: left;
+ }
+.GreenDiamond1{
+    width: 2%;
+    height: 1%;
+    float: left;
+    padding: 0%;
+ }
 
 #textIphone{
     text-align: center;
@@ -537,7 +559,7 @@ padding-top: 10%;
     border: 2px solid #FF4B63;
     background-color: #FF4B63;
     color:rgb(255, 255, 255);
-    padding: 20px 70px;
+    padding: 10px 40px;
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -556,7 +578,7 @@ padding-top: 10%;
     border: 2px solid #FF4B63;
     background-color: #FF4B63;
     color:rgb(255, 255, 255);
-    padding: 20px 70px;
+    padding: 10px 40px;
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -583,6 +605,11 @@ footer{
     font-weight: bold;
     
 }
+.containerFoot{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 .ContactList{
     display: flex;
     flex-direction: column;
@@ -598,7 +625,7 @@ footer{
     margin-left: 2%;
     color:#b1b2b4;
 }
-#maps{
+#foto{
     width: 20px;
 }
 .ValueLinks{
@@ -608,16 +635,10 @@ footer{
     color:#b1b2b4;
    
 }
-#envelope{
-    width: 20px;
-}
 .OtherApps{
     display: flex;
     flex-direction: column;
     font-size: 20px;
-}
-#phone{
-    width: 20px;
 }
 .AppsLogos{
     width:12% ;
@@ -631,4 +652,197 @@ footer{
     justify-content: center;
     color:#b1b2b4;
     padding: 1%;
+}
+@media screen and (max-width: 480px) {
+ 
+
+.MainNav{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    width: 100%;
+    list-style-type:none;
+    gap: 3%;
+    font-size: 10px;
+    color: #2D2D2D;
+    font-weight: bold;
+}
+.buttonDown{
+   
+    width: 50px;
+    height: 20px;
+    font-size: 5px;
+    border-width: 1px;
+}
+.Title{
+font-size: 20px;
+ }
+ .Logo{
+    width: 50px;
+    margin-left: 2px;
+ }
+ #FirstParagraph{
+    font-size: 11px;
+    margin: 25px 50px 0px 50px;
+ }
+.button1{
+   padding: 0.5px 10px;
+   font-size: 10px;
+}
+.button2{
+    padding: 0.5px 10px;
+    font-size: 10px;
+}
+.ContainerLogos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.TextLogo{
+    font-size: 9px;
+    text-align: center;
+}
+.FirstLogos{
+    padding: 5%;
+}
+.rebote {
+    width: 100%;
+
+}
+.Container1S2{
+    flex-wrap: wrap;
+}
+.TitleFirstPart{
+    font-size: 12px;
+}
+#Paragraph1{
+    font-size: 9px;
+}
+.List-b2{
+    font-size: 6px;
+}
+.button3{
+    padding: 0.5px 10px;
+    font-size: 10px;
+}
+#imagenArticulo{
+    width: 1000px;
+    height: auto;
+    
+}
+
+.ParagraphB1{
+    font-size: 9px;
+    margin-right: 10%;
+}
+.List-b1{
+    font-size: 6px;
+    margin-right: 10%;
+}
+.button4{
+    padding: 0.1px 5px;
+    font-size: 7px;
+}
+.button5{
+    padding: 0.1px 5px;
+    font-size: 7px;
+}
+.button6{
+    padding: 0.1px 5px;
+    font-size: 7px;
+}
+.ContainerS2{
+    flex-wrap: wrap;
+}
+#ImgDescription2{
+    width: 215px;
+    height: 200px;
+    
+}
+.button7{
+    padding: 0.5px 10px;
+    font-size: 10px;
+}
+.button8{
+    padding: 0.5px 10px;
+    font-size: 10px;
+    border-width: 1px;
+}
+h2{
+    font-size: 25px;
+}
+#Stars{
+    width: 50px;
+    height: 50px;
+}
+.ContainerTestimonials{
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.Testimony{
+    font-size: 8px;
+}
+.CustomerLogo{
+    width: 45px;
+}
+.ContainerCustomerlogos{
+    gap: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Text{
+    font-size: 15px;
+    margin-left: 2%;
+}
+.Text2{
+    font-size: 8px;
+    margin-left: 10%;
+}
+.SecondLogos{
+    width: 50px;
+}
+.ContainerUserLogos{
+    flex-wrap: wrap;
+}
+.blueCircle{
+    width: 30px;
+    
+}
+#textIphone{
+    font-size: 12px;
+}
+.button9{
+    padding: 0.5px 10px;
+    font-size: 10px;
+}
+.button10{
+    padding: 0.5px 10px;
+    font-size: 10px;
+}
+#titles{
+    font-size: 10px;
+    justify-content: center;
+}
+.containerFooot{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.ContactList{
+    font-size: 9px;
+}
+
+.AppsLogos{
+    padding: 1%;
+}
+#foto{
+    width: 10px;
+}
+#Copy{
+    font-size: 10px;
+}
+
+
+
+
 }
